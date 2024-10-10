@@ -6,7 +6,7 @@
     gpg-agent = {
       enable = true;
       pinentryPackage = pkgs.pinentry-curses;
-      enableSshSupport = true;
+      # enableSshSupport = true;
       # enableFishIntegration = true;
     };
   };
